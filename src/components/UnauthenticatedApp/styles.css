@@ -1,0 +1,40 @@
+.login {
+    background: var(--color-blue);
+    padding: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align items on each end */
+    align-items: center; /* Center items vertically */
+    background-color: #333; /* Add your desired background color */
+    padding: 10px 20px; /* Add padding to the navbar */
+    color: white; /* Set text color to white */
+    width: 100%;
+  }
+  
+  .navbar h2 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    display: inline; /* Display list items horizontally */
+    margin-left: 10px; /* Add spacing between list items */
+  }
+  
+  .navbar ul li:first-child {
+    margin-left: 0; /* Remove margin for the first list item */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set link color to white */
+  }
+  
+  
